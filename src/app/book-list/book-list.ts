@@ -9,7 +9,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
 export class BookListComponent {
 
   chatbooks = `
-  <span><i>Megrim </i> (The Alfred Gustav Press, 2021). (coming out next spring) </span>
+  <span><i>Megrim </i> (The Alfred Gustav Press, 2021). </span>
   <span><i>Fox Love</i> (The Alfred Gustav Press, 2016).</span>
   <span><i>Where the days and nights are equal length</i> (M. C International, 2014). ISBN 9780993676925</span>
   <span><i>Maya: Poems for the Summer Solstice</i> (Leaf Press, 2014).</span>
@@ -20,9 +20,11 @@ export class BookListComponent {
 
 
   anthologies = `
-<span><i>Resistance,</i>  ed. by Sue Goyette (University of Regina Press, 2021 upcoming…).</span>
+<span><i>apart: a year of pandemic poetry and prose</i>, edited by Courtney Bates-Hardy and Dave Margoshes (SWG Publication, 2021). ISBN 9780889778016</span>
 
-<span><i>Sweet Water: Poems for the Watersheds, ed. Yvonne Blomer</i> (Caitlin Press, 2020). </span>
+<span><i>RESISTANCE:RIGHTEOUS RAGE IN THE AGE OF #METOO</i>, ed. by Sue Goyette (University of Regina Press, 2021). ISBN 9780889778016</span>
+
+<span><i>Sweet Water: Poems for the Watersheds, ed. Yvonne Blomer</i> (Caitlin Press, 2020). ISBN=13 978-1-773860220</span>
 
 <span><i>Heartwood: For the Love of Trees, ed. Lesley Strutt</i> (League of Canadian Poets, 2018). ISBN 978-1-896216-51-5</span>
 
@@ -44,13 +46,13 @@ export class BookListComponent {
 
 <span><i>That Not Forgotten</i>, ed. Bruce Kauffman (Hiddenbrook, 2012). ISBN 978-1-897475-89-8</span>
 
-<span><i>Letting Go: Poems about surviving a loss</i>, ed. Hugh MacDonald (Black Moss, 2005). 
+<span><i>Letting Go: Poems about surviving a loss</i>, ed. Hugh MacDonald (Black Moss, 2005).
 IBSN 0-88753-393-0</span>
 
 <span><i>Land/Space: An Anthology of Speculative Prairie Literature</i>, eds. Candice Jane Dorsey and Judy
 McCrosky. (Tesseract, 2003). IBSN: 1-895836-92-. (98-100, 184-6)</span>
 
-<span><i>The Common Sky: Poems against the US-led Invasion of Iraq</i>, ed. Stephen Gregory (Threesquare Press, 2003). 	
+<span><i>The Common Sky: Poems against the US-led Invasion of Iraq</i>, ed. Stephen Gregory (Threesquare Press, 2003).
 IBSN: 0-9732578-0-6</span>
 
 <span><i>No Choice but to Trust</i>, ed. James Deahl (Mekler & Deahl, 2000). IBSN, 1-884206-08-5</span>
