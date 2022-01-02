@@ -20,7 +20,7 @@ export class BookListComponent {
 
 
   anthologies = `
-<span><i>apart: a year of pandemic poetry and prose</i>, edited by Courtney Bates-Hardy and Dave Margoshes (SWG Publication, 2021). ISBN 9780889778016</span>
+<span><i>apart: a year of pandemic poetry and prose</i>, edited by Courtney Bates-Hardy and Dave Margoshes (SWG Publication, 2021). ISBN 9780968945172</span>
 
 <span><i>RESISTANCE:RIGHTEOUS RAGE IN THE AGE OF #METOO</i>, ed. by Sue Goyette (University of Regina Press, 2021). ISBN 9780889778016</span>
 

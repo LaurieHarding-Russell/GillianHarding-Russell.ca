@@ -59,6 +59,16 @@ div.anthology-text {
     margin:50px 0;
 }
 
+.general-picture {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.poem-header {
+  margin-top: 1rem;
+}
+
 @media screen and (width: 500px) {
     .page-header {
     overflow: hidden;
@@ -66,7 +76,7 @@ div.anthology-text {
 }
 
 @media screen and (max-width: 500px) {
-    .page-header::before{ 
+    .page-header::before{
         background-position: -112px calc(var(--scroll)/4 + 20px);
     }
 }
