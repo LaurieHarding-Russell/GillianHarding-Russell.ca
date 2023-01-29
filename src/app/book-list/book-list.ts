@@ -20,6 +20,10 @@ export class BookListComponent {
 
 
   anthologies = `
+<span>Anthology on hope and healing – title not established – (Qantara Press, 2023, upcoming…).</span>
+
+<span><i>Poems for Ukraine</i> vol. 2 (Brydge Builder Press, 2022).</span>
+
 <span><i>apart: a year of pandemic poetry and prose</i>, edited by Courtney Bates-Hardy and Dave Margoshes (SWG Publication, 2021). ISBN 9780968945172</span>
 
 <span><i>RESISTANCE:RIGHTEOUS RAGE IN THE AGE OF #METOO</i>, ed. by Sue Goyette (University of Regina Press, 2021). ISBN 9780889778016</span>
