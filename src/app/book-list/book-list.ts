@@ -20,7 +20,9 @@ export class BookListComponent {
 
 
   anthologies = `
-<span>Anthology on hope and healing – title not established – (Qantara Press, 2023, upcoming…).</span>
+<span>Anthology on hope and healing – title not established – (Qantara Press, 2024, upcoming…).</span>
+
+<span><i>The Winter Happiness Challenge</i> (Lilac Arch Press, 2023).</span>
 
 <span><i>Poems for Ukraine</i> vol. 2 (Brydge Builder Press, 2022).</span>
 
