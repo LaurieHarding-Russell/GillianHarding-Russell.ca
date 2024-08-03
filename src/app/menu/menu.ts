@@ -6,12 +6,12 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   imports: [RouterModule],
   template: `
-    <div class="menu">
+    <nav class="menu">
       <a routerLink="/">General</a>
       <a routerLink="/books">Books</a>
       <a routerLink="/about">About</a>
       <a routerLink="/awards">Literary Awards</a>
-    </div>
+    </nav>
   `,
   styleUrls: [
     "menu.css",
