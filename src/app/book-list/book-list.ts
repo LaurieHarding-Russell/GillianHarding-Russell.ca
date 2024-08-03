@@ -1,10 +1,17 @@
 import { Component, ViewEncapsulation } from '@angular/core';
+import { BookComponent } from './book/book';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'book-list',
+  standalone: true,
+  imports: [BookComponent, CommonModule],
   templateUrl: './book-list.html',
   encapsulation: ViewEncapsulation.ShadowDom,
-  styleUrls: ["book-list.css"],
+  styleUrls: [
+    "book-list.css",
+    "/src/styles.css"
+  ],
 })
 export class BookListComponent {
 

@@ -28,6 +28,7 @@
 
   a:hover {
     color: #000000;
+    cursor: pointer;
   }
 
   @media screen and (max-width: 480px) {
@@ -45,5 +46,3 @@
       font-weight: bold;
     }
   }
-
-`

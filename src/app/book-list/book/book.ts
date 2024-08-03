@@ -1,9 +1,15 @@
+import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'book',
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './book.html',
-  styleUrls: [`book.css`]
+  styleUrls: [
+    "book.css",
+    "/src/styles.css"
+  ]
 })
 export class BookComponent {
   @Input() image = "";

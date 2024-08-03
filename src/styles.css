@@ -1,21 +1,74 @@
+@layer theme, util, overrides;
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond|Roboto');
 @import url('../node_modules/@fortawesome/fontawesome-free/css/all.min.css');
 
-:root {
-    --background:#f5ecde;
-    --primary-colour:#d3ac6f;
-    --secondary-colour: #ffffff;
+@layer theme {
+    :root {
+        --background:#f5ecde;
+        --primary-colour:#d3ac6f;
+        --secondary-colour: #ffffff;
 
-    --scroll: 0px;
-    --scroll-bar-colour: #dddddd66;
-    --header-colour: 240,240,240;
-    --time: 0;
+        --scroll: 0px;
+        --scroll-bar-colour: #dddddd66;
+        --header-colour: 240,240,240;
+        --time: 0;
 
-    --font-colour-title:#111;
-    --font-colour:black;
-    --font-colour-secondary:#333;
-    --font-title:'EB Garamond', serif;
-    --font:'Roboto', sans-serif;
+        --font-colour-title:#111;
+        --font-colour:black;
+        --font-colour-secondary:#333;
+        --font-title:'EB Garamond', serif;
+        --font:'Roboto', sans-serif;
+    }
+
+    .page-title {
+        text-align: center;
+        margin: 1.5rem 0 0 0;
+    }
+
+    * {
+        color: var(--font-colour);
+        font-family: var(--font);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: var(--font-colour-title);
+        font-family: var(--font-title);
+    }
+
+    h1, .h1 {
+        font-size: 2em
+    }
+    
+    h2, .h2 {
+        font-size: 1.5em
+    }
+    
+    h3, .h3 {
+        font-size: 1.17em
+    }
+
+    h4, .h4 {
+        font-size: 1em
+    }
+
+    hr {
+        box-shadow: 0px 0px 1px 0.5px #0005;
+        border-color: #000000;
+        border-style: solid;
+        border-width: 0px;
+        border-radius: 1px;
+        margin: 1rem 0 2rem 0;
+    }
+}
+
+@layer util {
+    .text-center {
+        text-align: center
+    }
+
+    .mt-1 {
+        margin-top: 0.25rem;
+    }
 }
 
 body {
@@ -28,20 +81,6 @@ menu {
     margin: 0;
 }
 
-* {
-    color: var(--font-colour);
-    font-family: var(--font);
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: var(--font-colour-title);
-    font-family: var(--font-title);
-}
-
-.text-center {
-    text-align: center
-}
-
 .title {
     text-align: center;
     color:var(--font);
@@ -52,15 +91,6 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 750px;
     width: 75%;
     margin: auto;
-}
-
-hr {
-    box-shadow: 0px 0px 1px 0.5px #0005;
-    border-color: #000000;
-    border-style: solid;
-    border-width: 0px;
-    border-radius: 1px;
-    margin: 1rem 0 2rem 0;
 }
 
 @media screen and (max-width: 500px) {

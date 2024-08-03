@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'about',
+  standalone: true,
   templateUrl: './about.html',
   styles:[`
     .profile {
@@ -14,7 +15,10 @@ import { Component } from '@angular/core';
       margin: auto;
       margin-top: 50px;
     }
-  `]
+  `],
+  styleUrls: [
+    "/src/styles.css"
+  ]
 })
 export class AboutComponent {
 

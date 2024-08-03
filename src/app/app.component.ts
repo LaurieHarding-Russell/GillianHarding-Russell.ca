@@ -1,12 +1,19 @@
-import { Component, OnInit, OnDestroy, Renderer2, ElementRef, NgZone } from '@angular/core';
-import { DomSanitizer } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
+import { Component, ElementRef } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+import { MenuComponent } from './menu/menu';
 
 @Component({
   selector: 'app-root',
+  standalone: true,
+  imports: [RouterOutlet, CommonModule, MenuComponent],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: [
+    './app.component.css',
+    "/src/styles.css"
+  ]
 })
-export class AppComponent implements OnInit, OnDestroy  {
+export class AppComponent {
   title = 'Gillian Harding-Russell';
 
   constructor(private element: ElementRef) { }
