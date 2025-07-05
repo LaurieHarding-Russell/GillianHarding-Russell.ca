@@ -4,14 +4,13 @@ import { RouterOutlet } from '@angular/router';
 import { MenuComponent } from './menu/menu';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet, CommonModule, MenuComponent],
-  templateUrl: './app.component.html',
-  styleUrls: [
-    './app.component.css',
-    "/src/styles.css"
-  ]
+    selector: 'app-root',
+    imports: [RouterOutlet, CommonModule, MenuComponent],
+    templateUrl: './app.component.html',
+    styleUrls: [
+        './app.component.css',
+        "/src/styles.css"
+    ]
 })
 export class AppComponent {
   title = 'Gillian Harding-Russell';
