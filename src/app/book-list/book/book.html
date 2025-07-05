@@ -1,22 +1,30 @@
 <div class="book">
-    <div class="info">
-        <picture>
-            <source type="image/webp" [srcset]="image">
-            <img class="book-image" [src]="imageFallback ? imageFallback : image" [alt]="title">
-        </picture>
-        <div class="credit">{{credit}}</div>
-        <div class="publish">{{publish}}</div>
-        <div class="id" *ngIf="id">ISBN {{id}}</div>
-    </div>
-    <span class="content" 
+  <div class="info">
+    <picture>
+      <source type="image/webp" [srcset]="image">
+      <img class="book-image" [src]="imageFallback ? imageFallback : image" [alt]="title">
+    </picture>
+    <div class="credit">{{credit}}</div>
+    <div class="publish">{{publish}}</div>
+    @if (id) {
+      <div class="id">ISBN {{id}}</div>
+    }
+  </div>
+  <span class="content"
         [ngClass]="{
             'detailed': show, 'description': show}">
-        <div *ngIf="!show">
-            <span [innerHtml]="description"></span>
-            <a class="book-content-toggle" (click)="show=true">Read more...</a>
-        </div>
-        <ng-content *ngIf="show">    
-        </ng-content>
-        <a class="book-content-toggle" *ngIf="show" (click)="show=false">... Hide</a>
-    </span>
+    @if (!show) {
+      <div>
+        <span [innerHtml]="description"></span>
+        <a class="book-content-toggle" (click)="show=true">Read more...</a>
+      </div>
+    }
+    @if (show) {
+      <ng-content>
+      </ng-content>
+    }
+    @if (show) {
+      <a class="book-content-toggle" (click)="show=false">... Hide</a>
+    }
+  </span>
 </div>

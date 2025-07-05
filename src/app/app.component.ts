@@ -1,11 +1,11 @@
-import { CommonModule } from '@angular/common';
+
 import { Component, ElementRef } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { MenuComponent } from './menu/menu';
 
 @Component({
     selector: 'app-root',
-    imports: [RouterOutlet, CommonModule, MenuComponent],
+    imports: [RouterOutlet, MenuComponent],
     templateUrl: './app.component.html',
     styleUrls: [
         './app.component.css',

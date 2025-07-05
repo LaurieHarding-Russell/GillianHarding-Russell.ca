@@ -1,10 +1,10 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { BookComponent } from './book/book';
-import { CommonModule } from '@angular/common';
+
 
 @Component({
     selector: 'book-list',
-    imports: [BookComponent, CommonModule],
+    imports: [BookComponent],
     templateUrl: './book-list.html',
     encapsulation: ViewEncapsulation.ShadowDom,
     styleUrls: [
