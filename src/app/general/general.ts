@@ -5,8 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   templateUrl: './general.html',
   styleUrls: [
-    "general.css",
-    "/src/styles.css" 
+    "general.css"
   ]
 })
 export class GeneralComponent {

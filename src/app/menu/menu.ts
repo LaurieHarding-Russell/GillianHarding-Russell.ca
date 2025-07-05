@@ -13,8 +13,7 @@ import { RouterModule } from '@angular/router';
     </nav>
   `,
     styleUrls: [
-        "menu.css",
-        "/src/styles.css"
+        "menu.css"
     ]
 })
 export class MenuComponent {

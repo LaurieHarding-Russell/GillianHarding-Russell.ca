@@ -7,7 +7,6 @@ import { Component, Input } from '@angular/core';
     templateUrl: './book.html',
     styleUrls: [
         "book.css",
-        "/src/styles.css"
     ]
 })
 export class BookComponent {

@@ -17,7 +17,6 @@ import { Component } from '@angular/core';
     }
   `],
   styleUrls: [
-    "/src/styles.css"
   ]
 })
 export class AboutComponent {

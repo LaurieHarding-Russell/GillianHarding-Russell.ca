@@ -8,8 +8,7 @@ import { BookComponent } from './book/book';
     templateUrl: './book-list.html',
     encapsulation: ViewEncapsulation.ShadowDom,
     styleUrls: [
-        "book-list.css",
-        "/src/styles.css"
+        "book-list.css"
     ]
 })
 export class BookListComponent {
