@@ -11,24 +11,26 @@
     align-items: center;
     justify-content: center;
     align-content: center;
-    background: rgba(var(--header-colour), 0.9);
+    background: rgba(var(--menu-colour), var(--scroll-bar-colour));
     margin:0;
     text-shadow: 1px 1px #ffffffb8;
   }
 
   .menu:hover {
-    background: rgba(var(--header-colour), 1.0);
+    background: rgba(var(--menu-colour), 1.0);
   }
 
   a {
-    margin: 0 15px;
+    padding: calc(var(--menuYPadding)/2) 1.5rem;
     color: #000000;
     font-family: var(--font-title);
+    text-decoration: none;
   }
 
   a:hover {
     color: #000000;
     cursor: pointer;
+    background-color: #00000011;
   }
 
   @media screen and (max-width: 480px) {

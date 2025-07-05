@@ -28,10 +28,11 @@ export class AppComponent {
     this.element.nativeElement.style.setProperty('--scroll', `${window.scrollY}px`);
 
     // FIXME, I've got to think where to put this menu logic.
-    if (window.scrollY > 40) {
-      this.element.nativeElement.style.setProperty('--scroll-bar-colour', `#dddddd`);
+
+    if (window.scrollY < 200) {
+      this.element.nativeElement.style.setProperty('--scroll-bar-colour', window.scrollY/200 * 0.5 + 0.5);
     } else {
-      this.element.nativeElement.style.setProperty('--scroll-bar-colour', `#dddddd66`);
+      this.element.nativeElement.style.setProperty('--scroll-bar-colour', 1);
     }
   };
 }

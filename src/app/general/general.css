@@ -1,11 +1,11 @@
 
 :host {
-
+    --headerHeight: calc(200px + var(--menuYPadding))
 }
 
 header {
     display: block;
-    height: 200px
+    height: var(--headerHeight)
 }
 .page-header::before{
     content: "";
@@ -15,7 +15,7 @@ header {
     left: 0;
     margin: 0;
     width: 100vw;
-    height: 200px;
+    height: var(--headerHeight);
     background-image: url("/assets/bannerImage.JPG");
     background-color: #cccccc;
     background-position: left calc(var(--scroll)/4);
@@ -78,5 +78,11 @@ div.anthology-text {
 @media screen and (max-width: 500px) {
     .page-header::before{
         background-position: -112px calc(var(--scroll)/4 + 20px);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .page-header {
+        display: none;
     }
 }
