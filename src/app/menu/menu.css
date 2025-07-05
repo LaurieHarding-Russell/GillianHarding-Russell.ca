@@ -17,7 +17,7 @@
   }
 
   .menu:hover {
-    background: rgba(var(--menu-colour), 1.0);
+    background: rgba(var(--menu-colour), max(var(--scroll-bar-colour), 0.9));
   }
 
   a {
