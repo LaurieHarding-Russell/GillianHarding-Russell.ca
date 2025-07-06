@@ -6,7 +6,6 @@ import { BookComponent } from './book/book';
     selector: 'book-list',
     imports: [BookComponent],
     templateUrl: './book-list.html',
-    encapsulation: ViewEncapsulation.ShadowDom,
     styleUrls: [
         "book-list.css"
     ]
