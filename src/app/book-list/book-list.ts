@@ -26,9 +26,9 @@ export class BookListComponent {
 
   anthologies = `
 
-<span><cite>Voices Unbound</cite>, ed Som (Fresh Words, 2025).</span>
+<span><cite>Sublime: Poems for Vanishing Ice</cite>, ed. Yvonne Blomer (Caitlin Press, 2026) ISBN-13 9781773861784 </span>
 
-<span>Anthology on hope and healing – title not established – (Qantara Press, upcoming…).</span>
+<span><cite>Voices Unbound</cite>, ed Som (Fresh Words, 2025).</span>
 
 <span><cite>The Winter Happiness Challenge</cite> (Lilac Arch Press, 2023).</span>
 

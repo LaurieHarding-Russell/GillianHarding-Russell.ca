@@ -40,6 +40,10 @@ menu {
     --menuYPadding: 2rem;
 }
 
+.bold {
+    font-weight: 900;
+}
+
 @media screen and (max-width: 500px) {
     * {
         font-size: 18px;
